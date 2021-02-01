@@ -15,7 +15,28 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Applications
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Evening.Walk.latLong.v01.png
+Evening_Walk_exp_v02.hr.txt
+Library
+Movies
+Music
+OM
+Pictures
+Public
+finitevolume.png
+github
+iCloud Drive (Archive)
+installMacOpenFOAM
+javasharedresources
+lgBin
+louis.goldford@columbia.edu Creative Cloud Files
+startMacOpenFOAM
+venv
 
 
 
