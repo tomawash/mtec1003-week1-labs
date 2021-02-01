@@ -49,7 +49,8 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+drwx------@  5 louisgoldford2020  staff    160 Jun 12  2020 Applications
+drwx------@  4 louisgoldford2020  staff    128 Jan 11 10:49 Creative Cloud Files
 
 
 
@@ -62,7 +63,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			Adobe			IanniX			OM			Zwift
+..			CU			Ircam			Pd			iZotope
 
 
 
