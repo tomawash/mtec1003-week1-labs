@@ -15,28 +15,7 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Applications
-Creative Cloud Files
-Desktop
-Documents
-Downloads
-Evening.Walk.latLong.v01.png
-Evening_Walk_exp_v02.hr.txt
-Library
-Movies
-Music
-OM
-Pictures
-Public
-finitevolume.png
-github
-iCloud Drive (Archive)
-installMacOpenFOAM
-javasharedresources
-lgBin
-louis.goldford@columbia.edu Creative Cloud Files
-startMacOpenFOAM
-venv
+
 
 
 
@@ -49,8 +28,7 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-drwx------@  5 louisgoldford2020  staff    160 Jun 12  2020 Applications
-drwx------@  4 louisgoldford2020  staff    128 Jan 11 10:49 Creative Cloud Files
+
 
 
 
@@ -63,8 +41,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-.			Adobe			IanniX			OM			Zwift
-..			CU			Ircam			Pd			iZotope
+
 
 
 
@@ -77,7 +54,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-ls: doesnotexist: No such file or directory
+
 
 
 
@@ -86,7 +63,7 @@ ls: doesnotexist: No such file or directory
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-the UP arrow on my keyboard 
+
 
 
 
@@ -96,16 +73,13 @@ the UP arrow on my keyboard
 6.  Name two flags/options that we used in this exercise.
 ----------
 
--l (list the LONG form of all the files)
--a (list ALL files, including the hidden ones!)
-
 
 
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-ls (list all them files!! yeehaw!)
+
 
 
 
@@ -114,8 +88,7 @@ ls (list all them files!! yeehaw!)
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-doesnotexist
-Documents
+
 
 
 
@@ -128,7 +101,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
--bash: foo: command not found
+
 
 
 
@@ -141,7 +114,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
--bash: foo: command not found
+
 
 
 
@@ -154,12 +127,7 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-command: ls
-option/flag: -a
-argument: Desktop
-prompt: $ (The prompt is the symbol that tells you the computer is not currently running a command and is "ready" for your input.)
 
-(Sometimes you may see a % symbol instead of $.)
 
 
 
@@ -176,7 +144,6 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-mkdir
 
 
 
@@ -185,7 +152,7 @@ mkdir
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-cd 
+
 
 
 
@@ -201,7 +168,7 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-/Users/louisgoldford2020/mtec1003
+
 
 
 
@@ -215,7 +182,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals
+
 
 
 
@@ -229,7 +196,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals	food
+
 
 
 
@@ -243,10 +210,10 @@ $ ls
 
 Copy and paste the output below.
 ----------
-animals	foo	food
 
 
-(-p flag is RECURSIVE — meaning, recursively NEST one folder inside another...)
+
+
 
 
 ==========
@@ -257,7 +224,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-/Users/louisgoldford2020/mtec1003/foo/bar/baz/qux
+
 
 
 
