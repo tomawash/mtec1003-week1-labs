@@ -17,6 +17,55 @@ Copy and paste the output of ls below.
 ----------
 
 
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+'Creative Cloud Files'/
+'Creative Cloud Files Tomasz.Wiercioch77@login.cuny.edu a08dcf1e1edbb601b0c0f33ec45949a801e13aa38035fc22691696ca530254a5'/
+ Desktop/
+ Documents/
+ Downloads/
+ Dropbox/
+'Dropbox (Old (1))'/
+'Dropbox (Old)'/
+ Favorites/
+ HP/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TM.blf
+ NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+ Roaming/
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Tracing/
+ Videos/
+ bs4/
+ eclipse/
+ eclipse-workspace/
+ maven-example/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+'tomw14u@gmail.com Creative Cloud Files'/
+'tomw3280@gmail.com Creative Cloud Files'/
+
 
 
 
@@ -30,6 +79,12 @@ Copy and paste the first *two lines* of output below.
 ----------
 
 
+total 670
+drwxr-xr-x 1 Tomasz 197121      0 Sep 11 12:34  Adobe/
+drwxr-xr-x 1 Tomasz 197121      0 Jan  2  2021  CELSYS/
+drwxr-xr-x 1 Tomasz 197121      0 Mar 10  2021  Documentation/
+drwxr-xr-x 1 Tomasz 197121      0 Dec 28 18:11  Fonts/
+
 
 
 
@@ -42,7 +97,12 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+ ./
+ ../
+ Adobe/
+ CELSYS/
+ Documentation/
+ Fonts/
 
 
 
@@ -55,6 +115,7 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 
@@ -64,7 +125,7 @@ Copy and paste the output below.
 5.  What key do I press to go to the previous command?
 ----------
 
-
+Up Arrow
 
 
 
@@ -73,14 +134,15 @@ Copy and paste the output below.
 6.  Name two flags/options that we used in this exercise.
 ----------
 
-
+-l
+-a
 
 
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
 
-
+$ ls
 
 
 
@@ -89,7 +151,7 @@ Copy and paste the output below.
 8.  What's one an argument that we've so far passed to a command?
 ----------
 
-
+Documents
 
 
 
@@ -102,6 +164,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 
@@ -115,6 +178,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+bash: foo: command not found
 
 
 
@@ -128,7 +192,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+Command: ls
+Flag: -a
+Argument: Desktop
+Prompt: $
 
 
 Lab 1 / Part 2 - Navigating the File System
@@ -144,7 +211,7 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-
+$ mkdir mtec1003
 
 
 
@@ -152,6 +219,7 @@ Follow the instructions line-by-line.
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
+$ cd mtec1003
 
 
 
@@ -169,6 +237,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+/c/Users/Tomasz/mtec1003
 
 
 
@@ -183,6 +252,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/
 
 
 
@@ -197,6 +267,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/  food/
 
 
 
@@ -211,6 +282,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals/  foo/  food/
 
 
 
@@ -225,6 +297,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Tomasz/mtec1003/foo/bar/baz/qux
 
 
 
@@ -239,6 +312,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Tomasz/mtec1003/foo/bar
 
 
 
@@ -253,6 +327,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Tomasz/mtec1003/foo/bar/baz/qux
 
 
 
@@ -267,6 +342,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
+/c/Users/Tomasz/mtec1003
 
 
 
@@ -282,7 +358,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
-
+total 0
+drwxr-xr-x 1 Tomasz 197121 0 Jan 31 16:26 foo/
+drwxr-xr-x 1 Tomasz 197121 0 Jan 31 16:24 food/
 
 
 
@@ -296,7 +374,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/Tomasz
 
 
 
@@ -310,6 +388,12 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+I did
+$cd /F
+to get my external storage
+
+ Documents/   Images/  'System Volume Information'/   backup_5_20/
+ Games/       Steam/    Videos/                       backup_6_27/
 
 
 
@@ -324,7 +408,8 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd: /unknown_folder: No such file or directory
+/c/Users/Tomasz
 
 
 
@@ -338,6 +423,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/c/Users/Tomasz/mtec1003
 
 
 
@@ -351,6 +437,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
+DESKTOP-Q85TUEI
 
 
 
@@ -360,8 +447,8 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
-
+$ pwd
+/c/Users/Tomasz
 
 
 
@@ -373,7 +460,7 @@ cd ~/mtec1002
 Otherwise skip this question/step!
 ----------
 
-
+skip
 
 
 
@@ -391,6 +478,7 @@ lemon
 Write the one command you used below:
 ----------
 
+$ mkdir -p pineapple/orange/strawberry/lemon
 
 
 
@@ -402,6 +490,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
+$ mkdir aardvark
 
 
 
@@ -413,7 +502,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+drwxr-xr-x 1 Tomasz 197121 0 Jan 31 16:47 aardvark/
 
 
 
@@ -428,7 +517,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+$ mkdir -p foo/bar/baz
 
 
 
@@ -439,6 +528,7 @@ What command did you use?
 What command did you use?
 ----------
 
+$ cd foo/bar/baz
 
 
 
@@ -450,7 +540,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+$ cd ../..
 
 
 
@@ -459,7 +549,7 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+$ rmdir
 
 
 
@@ -468,7 +558,7 @@ What command did you use?
 37. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 
 
@@ -477,7 +567,7 @@ What command did you use?
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 
 
@@ -486,7 +576,7 @@ What command did you use?
 39. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 
 
@@ -495,7 +585,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+It is the general name of a directory that specifies a unique location in a file system.
 
 
 
@@ -504,7 +594,7 @@ What command did you use?
 41. What is a directory?
 ----------
 
-
+It is a space in the files system that references other files and potentially other directories, used to organize files.
 
 
 
@@ -512,3 +602,5 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+
+/c/Users/Tomasz/Downloads
