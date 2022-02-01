@@ -15,46 +15,46 @@ Feel free to use your workstation to test your answers to the questions that don
 1. Write the command that you would use to change to the root directory.
 ----------
 
-
+$ cd /
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
 
-
+$ cd ~
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
 
-
+/c/Users/Tomasz/Desktop
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
 
-
+$ mkdir /c/Users/Tomasz/Desktop/stuff
 
 
 ==========
 5. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
 
-
+$ cd ../..
 
 ==========
 6. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/professor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
 
-
+$ cd -
 
 ==========
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
 
-
+$ ls -al Desktop
 
 ==========
 Part 2 - Output, Download and Uncompress
@@ -75,8 +75,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
-
+hello there
 
 ==========
 2. Type:
@@ -86,7 +85,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -96,7 +95,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+>
 
 ==========
 4. Uh-oh... we're stuck!
@@ -104,7 +103,7 @@ Copy and paste the output below.
 Type [CTRL + C] to get your prompt back.
 ----------
 
-
+$
 
 ==========
 5. Say good mornin' again with quotes!
@@ -114,7 +113,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -125,8 +124,7 @@ $ echo *
 What happens?
 ----------
 
-
-
+3D Objects AppData Application Data Contacts Cookies Creative Cloud Files Creative Cloud Files Tomasz.Wiercioch77@login.cuny.edu a08dcf1e1edbb601b0c0f33ec45949a801e13aa38035fc22691696ca530254a5 Desktop Documents Downloads Dropbox Dropbox (Old (1)) Dropbox (Old) Favorites HP IntelGraphicsProfiles Links Local Settings MicrosoftEdgeBackups Music My Documents NTUSER.DAT NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TM.blf NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TMContainer00000000000000000001.regtrans-ms NTUSER.DAT{50df606f-cdd6-11e9-b3b9-85642dfd43ea}.TMContainer00000000000000000002.regtrans-ms NetHood OneDrive Pictures PrintHood Recent Roaming Saved Games Searches SendTo Start Menu Templates Tracing Videos bs4 eclipse eclipse-workspace maven-example mtec1003 ntuser.dat.LOG1 ntuser.dat.LOG2 ntuser.ini source tomw14u@gmail.com Creative Cloud Files tomw3280@gmail.com Creative Cloud Files
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
@@ -134,7 +132,7 @@ What happens?
 Write the command that you used below:
 ----------
 
-
+$ clear
 
 ==========
 Downloading files from a web site:  We'll use the following method to download more lab materials!
@@ -149,9 +147,9 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
-
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14070    0 14070    0     0  11260      0 --:--:--  0:00:01 --:--:-- 11283
 
 
 
@@ -161,9 +159,9 @@ Now copy and paste the output below.
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
 
+$ pwd
 
-
-
+/c/Users/Tomasz
 
 ==========
 10. If you're not in your home directory, change to it (use the shortcut).
@@ -172,7 +170,7 @@ Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
 
-
+$ cd ~
 
 ===========
 
